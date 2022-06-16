@@ -14,3 +14,14 @@ class CustomPermission(permissions.BasePermission):
         if request.method not in self.edit_methods:
             return True
         return False
+
+
+class FollowPermission(permissions.BasePermission):
+    allowed_methods = ("GET", "POST")
+
+    def has_permission(self, request, view):
+        if not request.user.is_authenticated:
+            return False
+
+        if request.method in self.allowed_methods:
+            return True
