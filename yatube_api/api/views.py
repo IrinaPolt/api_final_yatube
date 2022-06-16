@@ -2,7 +2,7 @@ from rest_framework import viewsets, permissions
 from rest_framework.filters import SearchFilter
 from django.shortcuts import get_object_or_404
 
-from posts.models import Post, Group, User
+from posts.models import Post, Group
 from .serializers import (
     PostSerializer,
     GroupSerializer,
