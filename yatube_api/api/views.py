@@ -2,13 +2,13 @@ from rest_framework import viewsets, permissions
 from rest_framework.filters import SearchFilter
 from django.shortcuts import get_object_or_404
 
-from posts.models import Post, Group, Follow, User
+from posts.models import Post, Group, User
 from .serializers import (
-    PostSerializer, 
-    GroupSerializer, 
-    CommentSerializer, 
+    PostSerializer,
+    GroupSerializer,
+    CommentSerializer,
     FollowSerializer
-    )
+)
 from .permissions import CustomPermission
 
 
