@@ -1,4 +1,4 @@
-## Проект api_yatube 
+## API для проекта Yatube
  
 
 Yatube - социальная сеть для блогеров. 
@@ -14,7 +14,7 @@ Yatube - социальная сеть для блогеров.
 Клонировать репозиторий и перейти в него в командной строке: 
 
 ``` 
-git clone https://github.com/yandex-praktikum/api_yatube.git 
+git clone https://github.com/IrinaPolt/api_final_yatube.git
 
 ``` 
 
@@ -150,4 +150,4 @@ POST .../api/v1/follow/
 
 ### Об авторе: 
 
-Студент Backend-факультета, Яндекс.Практикум. Когорта №35 
+[Ирина Полтарыхина](https://github.com/IrinaPolt), студентка Backend-факультета, Яндекс.Практикум. Когорта №35 
